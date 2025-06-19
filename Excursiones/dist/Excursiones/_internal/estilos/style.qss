@@ -1,0 +1,42 @@
+/* Estilo general para el CRM de Turismo */
+
+QWidget {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    background-color: #f5f7fa;
+    color: #1c1c1c;
+}
+
+QLabel {
+    font-weight: bold;
+}
+
+QPushButton {
+    background-color: #2e86de;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+QPushButton:hover {
+    background-color: #1e6ab3;
+}
+
+QLineEdit, QTextEdit, QComboBox, QDateEdit {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+QListWidget {
+    background-color: #2c3e50;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    border: none;
+}
+
+QListWidget::item:selected {
+    background-color: #2980b9;
+}
